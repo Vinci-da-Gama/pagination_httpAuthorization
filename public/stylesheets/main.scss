@@ -1,0 +1,23 @@
+/* CSS Document */
+@import "./mixins.scss";
+@import "../../lib/bootstrap/dist/css/bootstrap.min.scss";
+
+$zp:0px;
+$bgAisle:"../_img/flags.jpg";
+$bgVertical: top;
+$bgHorizontal: center;
+$bgRepeat: no-repeat;
+$bgSize: cover;
+$bgBlue: rgba(20, 120, 200, .99);
+/* vender prefix */
+$venderList: "-webkit-", "-moz-", "-ms-", "-o-", "";
+
+body.basicbody
+{
+	@include extendFlex($zp);
+	@include fontSmooth();
+}
+
+body>div {
+	color: red;
+}
