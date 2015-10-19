@@ -1,2 +1,2 @@
-# pagination_httpAuthorization
+# Gulp_pagination_httpAuthorization
 use bootstrap to finish pagination and http get (Authorization)...
