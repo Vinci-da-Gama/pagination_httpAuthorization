@@ -1,5 +1,6 @@
 .DS_Store
 .AppleDouble
+.gitignore
 .bowerrc
 bower.json
 gulpfile.js
