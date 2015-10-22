@@ -18,6 +18,4 @@ body.basicbody
 	@include fontSmooth();
 }
 
-body>div {
-	color: red;
-}
+@import "./spinner.scss";

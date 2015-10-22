@@ -1,3 +1,9 @@
+@mixin DivTableCell() {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
 @mixin fontSmooth() {
 	@each $vender in $venderList {
 		#{$vender}font-smoothing: antialiased;
